@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Minesweeper</title>
+
+  <!-- RESET -->
+  <link rel="stylesheet" href="vendor/reset/reset.css">
+
+  <!-- SLICK SLIDER CSS -->
+  <link rel="stylesheet" href="vendor/slick/slick/slick.css">
+
+  <!-- SLICK SLIDER CSS -->
+  <link rel="stylesheet" href="vendor/slick/slick/slick-theme.css">
+
+  <!-- STYLING -->
+  <link rel="stylesheet" href="css/intro.css">
+  <link rel="stylesheet" href="css/monsters.css">
+  <link rel="stylesheet" href="css/skunks.css">
+  <link rel="stylesheet" href="css/cops.css">
+
+  <!-- INCLUDE JQUERY LOCALLY -->
+  <script src="vendor/jquery/jquery.js"></script>
+
+  <!-- SLICK SLIDER JS -->
+  <script src="vendor/slick/slick/slick.min.js"></script>
+
+  <!-- INCLUDE LOCAL SCRIPT FILE -->
+  <script src="scripts/intro.js"></script>
+
+</head>
+<body>
+
+  <div class="game-introduction">
+    <h1>It's Minesweeper... with a twist!</h1>
+    <h3>The Basic Rules</h3>
+    <p>Each game starts out with a grid of unmarked squares.
+      Some squares are safe to click (revealing a number) but others are bombs!
+      If a bomb is clicked, game over.</p>
+    <p>The number on the square is how many bombs the square is touching: to
+      the top, bottom, left, right, and both diagonals. It's your job to use the
+      numbers to figure out which of the unmarked squares have bombs and which
+      are safe to click.</p>
+    <p>If you suspect a square hides a bomb, then click the Flag button to
+      mark it. Once all bombs are flagged, game won!</p>
+    <h3>The Twist</h3>
+    <p>Before you play, select a game theme. Each has its own
+      story line:</p.
+  </div>
+  <div class="carousel-container">
+    <div class="carousel">
+      <div class="carousel-slide monsters bg-color">
+        <img src="images/monsters.png" alt="Monsters">
+        <p class="theme-description">Watch out!
+          There's monsters lurking in the woods.</p>
+      </div>
+      <div class="carousel-slide cops bg-color">
+        <img src="images/cops.png" alt="Cops">
+        <p class="theme-description">You robbed a bank!
+        Now sneak away from the cops.</p>
+      </div>
+      <div class="carousel-slide skunks bg-color">
+        <img src="images/skunks.png" alt="Skunks">
+        <p class="theme-description">Gross! Skunks in the area.
+        Catch them before they spray.</p>
+      </div>
+      <div class="carousel-slide monsters bg-color">
+        <img src="images/cage.png" alt="Cage">
+      </div>
+    </div>
+  </div>
+
+
+
+</body>
+</html>
